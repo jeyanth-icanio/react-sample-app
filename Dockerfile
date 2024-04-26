@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install 
+RUN npm install -f
 # RUN npm install -g npm@10.5.2
  
 
