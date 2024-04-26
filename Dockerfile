@@ -10,6 +10,6 @@ RUN npm install
 # RUN npm install -g npm@10.5.2
  
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npm", "start"]  
